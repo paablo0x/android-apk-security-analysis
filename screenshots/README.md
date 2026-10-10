@@ -1,14 +1,7 @@
 # Screenshots
 
-This folder is intentionally empty in the initial repository.
+This folder is intentionally empty in the public repository to avoid exposing details that could identify the original app or developer.
 
-If I add screenshots, I will use them to support specific findings in the report, for example:
+If I add screenshots later, I will use redacted evidence that supports specific findings, such as the manifest review, signature verification, or offline test. Before publishing, I will remove names, hashes, package IDs, certificate details, report URLs, personal notifications, and other identifying information, and get the developer's permission where appropriate.
 
-- SHA-256 calculation
-- VirusTotal results
-- JADX manifest review
-- APK signature verification
-- relevant decompiled code
-- offline device test
-
-Before publishing screenshots, I will remove personal information and get the developer's permission where needed. I will not upload the APK itself or private source code.
+The APK and private source code are not included.

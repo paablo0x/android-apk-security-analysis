@@ -1,24 +1,16 @@
 # Findings and quick notes
 
-These are my working notes from the APK analysis. The full report is in [`../report/analysis-report.md`](../report/analysis-report.md).
-
-## File identity
-
-- App: GymTracker
-- Package: `com.laurikk.gymtracker`
-- Version: `1.0`
-- SHA-256: `8B9D1C0544FC19C927B4ADD91D48B122C74330F5F6759E2BD52E7FAA892DDEE3`
+These are my working notes from the APK analysis. The full report is in [`../report/analysis-report.md`](../report/analysis-report.md). Identifying details have been removed from this public version.
 
 ## Checks performed
 
-- [x] Calculated SHA-256 locally
-- [x] Compared the hash with the VirusTotal report
-- [x] Checked VirusTotal results (0/65 at the time checked)
+- [x] Calculated SHA-256 locally (exact value withheld)
+- [x] Checked a VirusTotal report (exact report details withheld)
 - [x] Opened the APK in JADX
 - [x] Reviewed the manifest and permissions
 - [x] Searched for common sensitive permissions
-- [x] Searched for obvious URLs and an `okhttp` string
-- [x] Verified the APK v2 signature
+- [x] Searched for obvious URL strings and a common networking-library string
+- [x] Verified the APK signature
 - [x] Inspected some notification and rest-timer code
 - [x] Installed on a spare Android phone
 - [x] Tested main screens with Wi-Fi disabled / airplane mode enabled
