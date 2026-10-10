@@ -1,0 +1,17 @@
+# APKs and other potentially sensitive samples
+*.apk
+*.aab
+*.dex
+*.class
+
+# Android build output
+build/
+.gradle/
+.idea/
+local.properties/
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
